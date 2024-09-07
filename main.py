@@ -28,6 +28,13 @@ rubbish_decomposition ={
     "food": "2 weeks"
 }
 
+@bot.command()
+async def helpme(ctx):
+    await ctx.send("This bot shows how long rubbish takes to decompose, use it using /classify")
+    await ctx.send(f"List of objects: {rubbish_decomposition}")
+
+
+
 
 @bot.command()
 
