@@ -1,0 +1,1 @@
+Another bot. dedicated to show info about some objects.
